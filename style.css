@@ -1,0 +1,345 @@
+/*
+Theme Name:   Kuki
+Theme URI:    https://www.kuuki.com.mx/
+Description:  Plantilla HTML para Kuuki
+Author:       Jesús López Velázquez
+Author URI:   http://example.com
+Template:     blossom-shop
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  blossom-shop
+*/
+
+/*----------------- Cambios a partir de aquí -------------------------------*/
+
+
+img.custom-logo {
+    width: 150px;
+}
+
+
+nav#site-navigation {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.wrap-button-blog{
+	width: 100%;
+	display: block;
+	clear: both;
+	margin-top: .2rem;
+	margin-bottom: .2rem;
+	text-align: center;
+}
+
+.btn-blog{
+	font-size: .7em;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background: #000;
+    color: #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+
+.btn-blog:hover{
+	background: #dde9ed;
+	color: #000;
+}
+
+
+.single .site-content > .page-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 550px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-section {
+    background-color: #fff ;
+}
+
+
+.logo-whatsapp{
+  /*  padding: .4rem;
+	border-radius:10px;*/
+	background-color:#44c767;
+	border-radius:10px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	   
+}
+
+
+a.dc-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+svg.svg-inline--fa.fa-whatsapp.fa-2x {
+    margin-right: 0.5rem;
+}
+
+
+.edit-link .post-edit-link:hover, .yith-wcqv-main .product .summary table.woocommerce-grouped-product-list tbody tr td .button:hover, .yith-wcqv-main .product .summary .single_add_to_cart_button:hover, .widget_calendar table tbody td#today, .widget_bttk_custom_categories ul li a:hover .post-count, .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .btn-cta:hover, .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .btn-cta + .btn-cta, .header-main .right .cart-block .widget_shopping_cart .buttons a:hover, .header-main .right .cart-block .widget_shopping_cart .buttons a.checkout, .pagination .page-numbers.current, .pagination .page-numbers:not(.dots):hover, #load-posts a:not(.loading):hover, #load-posts a.disabled, #load-posts a .loading:hover, .posts-navigation .nav-links a:hover, .author-section .author-content-wrap .social-list li a:hover svg, .site-banner .banner-caption .blossomthemes-email-newsletter-wrapper input[type="submit"]:hover, .site-banner.banner-six .banner-caption .btn-readmore:hover, .woocommerce-page .widget_shopping_cart .buttons .button:hover, .woocommerce-page .widget_shopping_cart .buttons .button:focus, .woocommerce-page .widget_shopping_cart .buttons .button + .button, .woocommerce-page .widget_price_filter .price_slider_amount .button:hover, .woocommerce-page .widget_price_filter .price_slider_amount .button:focus, .single-product .site-main div.product div.summary table.woocommerce-grouped-product-list tbody tr td .button:hover, .single-product .site-main div.product div.summary .single_add_to_cart_button:hover, .single-product .site-main div.product .woocommerce-tabs ul.tabs li a:after, .single-product .site-main div.product #reviews #respond .comment-form p.form-submit input[type="submit"]:hover, .woocommerce-cart .site-main .woocommerce .woocommerce-cart-form table.shop_table tbody td.actions > .button:hover, .woocommerce-cart .site-main .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #primary .checkout_coupon p.form-row .button:hover, .woocommerce-checkout #primary .woocommerce-checkout .woocommerce-checkout-review-order #payment .payment_methods li input[type="radio"]:checked + label::before, .woocommerce-checkout #primary .woocommerce-checkout .woocommerce-checkout-review-order #payment .place-order .button, .woocommerce-order-received .entry-content .woocommerce-order-details .shop_table thead tr, .woocommerce-wishlist #content table.wishlist_table.shop_table tbody td.product-add-to-cart .button:hover, .woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover, .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a, .featured-section.style-one .section-block .block-content .block-title a:hover, .main-navigation ul li a .menu-description, .woocommerce-page .site-content ul.products li.product .product_type_external:hover, .woocommerce-page .site-content ul.products li.product .product_type_simple:hover, .woocommerce-page .site-content ul.products li.product .product_type_grouped:hover, .woocommerce-page .site-content ul.products li.product .product_type_variable:hover, .cat-tab-section .tab-btn-wrap .tab-btn::after, .cat-tab-section .tab-btn-wrap .tab-btn::after, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link::before, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link:hover, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link:focus {
+    background: #2F7533 !important;
+}
+
+
+.float {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.my-float{
+
+}
+
+.block2{
+    background-color: #000;
+    /*padding: 3rem;
+    margin-bottom: 4rem;*/
+}
+
+.block2 h3{
+    color: #fff;
+}
+
+.description_site{
+    position: absolute;
+    top:-300px;
+    font-size: .7rem;
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .edit-link .post-edit-link, .item .recent-prod-image .product_type_external:hover, .item .recent-prod-image .product_type_simple:hover, .item .recent-prod-image .product_type_grouped:hover, .item .recent-prod-image .product_type_variable:hover, .item .popular-prod-image .product_type_external:hover, .item .popular-prod-image .product_type_simple:hover, .item .popular-prod-image .product_type_grouped:hover, .item .popular-prod-image .product_type_variable:hover, .widget_bttk_contact_social_links .social-networks li a, .widget_bttk_author_bio .readmore, .widget_bttk_author_bio .author-socicons li a:hover, .widget_bttk_social_links ul li a:hover, .widget_bttk_image_text_widget ul li:hover .btn-readmore, .widget_bttk_author_bio .readmore, .widget_bttk_author_bio .author-socicons li a:hover, .bttk-team-inner-holder ul.social-profile li a:hover, .widget_bttk_icon_text_widget .rtc-itw-inner-holder .text-holder .btn-readmore:hover, .widget_blossomtheme_featured_page_widget .text-holder .btn-readmore:hover, .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .btn-cta, .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .btn-cta + .btn-cta:hover, .sticky-t-bar .sticky-bar-content, .header-main .right span.count, .header-main .right .cart-block .widget_shopping_cart .buttons a, .header-main .right .cart-block .widget_shopping_cart .buttons a.checkout:hover, .main-navigation ul ul li:hover > a, .main-navigation ul ul li.current-menu-item > a, .main-navigation ul ul li.current_page_item > a, .main-navigation ul ul li.current-menu-ancestor > a, .main-navigation ul ul li.current_page_ancestor > a, #load-posts a, .posts-navigation .nav-links a, .site-banner .banner-caption .blossomthemes-email-newsletter-wrapper input[type="submit"], .site-banner .owl-dots .owl-dot:hover span, .site-banner .owl-dots .owl-dot.active span, .featured-section .section-block:not(:first-child) .block-title a:hover, .featured-section.style-three .section-block:hover .btn-readmore:hover, section.prod-deal-section .button-wrap .bttn:hover, section.about-section.style-two, .testimonial-section .owl-stage-outer, section.cta-section.style-one .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .btn-cta + .btn-cta, section.cta-section.style-one .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .btn-cta:hover, .blog-section .button-wrap .bttn:hover, .popular-prod-section .button-wrap .btn-readmore:hover, .single .site-main article .article-meta .social-list li a:hover, .single .site-main article .entry-footer .cat-tags a:hover, .woocommerce-page .widget_shopping_cart .buttons .button, .woocommerce-page .widget_shopping_cart .buttons .button + .button:hover, .woocommerce-page .widget_shopping_cart .buttons .button + .button:focus, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .price_slider_amount .button, .tagcloud a:hover, .woocommerce-page .site-content ul.products li.product .product_type_external, .woocommerce-page .site-content ul.products li.product .product_type_simple, .woocommerce-page .site-content ul.products li.product .product_type_grouped, .woocommerce-page .site-content ul.products li.product .product_type_variable, .item .recent-prod-image .product_type_external:hover, .item .recent-prod-image .product_type_simple:hover, .item .recent-prod-image .product_type_grouped:hover, .item .recent-prod-image .product_type_variable:hover, .item .popular-prod-image .product_type_external:hover, .item .popular-prod-image .product_type_simple:hover, .item .popular-prod-image .product_type_grouped:hover, .item .popular-prod-image .product_type_variable:hover, .item .cat-image .product_type_external:hover, .item .cat-image .product_type_simple:hover, .item .cat-image .product_type_grouped:hover, .item .cat-image .product_type_variable:hover, section[class*="-cat-section"] .button-wrap .btn-readmore:hover, .item .product-image .product_type_external:hover, .item .product-image .product_type_simple:hover, .item .product-image .product_type_grouped:hover, .item .product-image .product_type_variable:hover {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.edit-link .post-edit-link:hover, .yith-wcqv-main .product .summary table.woocommerce-grouped-product-list tbody tr td .button:hover, .yith-wcqv-main .product .summary .single_add_to_cart_button:hover, .widget_calendar table tbody td#today, .widget_bttk_custom_categories ul li a:hover .post-count, .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .btn-cta:hover, .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .btn-cta + .btn-cta, .header-main .right .cart-block .widget_shopping_cart .buttons a:hover, .header-main .right .cart-block .widget_shopping_cart .buttons a.checkout, .pagination .page-numbers.current, .pagination .page-numbers:not(.dots):hover, #load-posts a:not(.loading):hover, #load-posts a.disabled, #load-posts a .loading:hover, .posts-navigation .nav-links a:hover, .author-section .author-content-wrap .social-list li a:hover svg, .site-banner .banner-caption .blossomthemes-email-newsletter-wrapper input[type="submit"]:hover, .site-banner.banner-six .banner-caption .btn-readmore:hover, .woocommerce-page .widget_shopping_cart .buttons .button:hover, .woocommerce-page .widget_shopping_cart .buttons .button:focus, .woocommerce-page .widget_shopping_cart .buttons .button + .button, .woocommerce-page .widget_price_filter .price_slider_amount .button:hover, .woocommerce-page .widget_price_filter .price_slider_amount .button:focus, .single-product .site-main div.product div.summary table.woocommerce-grouped-product-list tbody tr td .button:hover, .single-product .site-main div.product div.summary .single_add_to_cart_button:hover, .single-product .site-main div.product .woocommerce-tabs ul.tabs li a:after, .single-product .site-main div.product #reviews #respond .comment-form p.form-submit input[type="submit"]:hover, .woocommerce-cart .site-main .woocommerce .woocommerce-cart-form table.shop_table tbody td.actions > .button:hover, .woocommerce-cart .site-main .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #primary .checkout_coupon p.form-row .button:hover, .woocommerce-checkout #primary .woocommerce-checkout .woocommerce-checkout-review-order #payment .payment_methods li input[type="radio"]:checked + label::before, .woocommerce-checkout #primary .woocommerce-checkout .woocommerce-checkout-review-order #payment .place-order .button, .woocommerce-order-received .entry-content .woocommerce-order-details .shop_table thead tr, .woocommerce-wishlist #content table.wishlist_table.shop_table tbody td.product-add-to-cart .button:hover, .woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover, .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a, .featured-section.style-one .section-block .block-content .block-title a:hover, .main-navigation ul li a .menu-description, .woocommerce-page .site-content ul.products li.product .product_type_external:hover, .woocommerce-page .site-content ul.products li.product .product_type_simple:hover, .woocommerce-page .site-content ul.products li.product .product_type_grouped:hover, .woocommerce-page .site-content ul.products li.product .product_type_variable:hover, .cat-tab-section .tab-btn-wrap .tab-btn::after, .cat-tab-section .tab-btn-wrap .tab-btn::after, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link::before, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link:hover, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link:focus {
+    background: #fff !important;
+    color: #000 !important;
+    border: solid 2px #000;
+}
+
+/*** TOAST **/
+
+.toast{
+  position: fixed;
+  bottom:0;
+  left:0;
+  border-radius: 6px;
+  background: #fff;
+  padding: 20px 35px 20px 25px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-left: 8px solid #c933e9;
+  overflow: hidden;
+  transform: translateX(calc(-100%));
+  transition: all 1s cubic-bezier(0.68, -0.55, 0.25, 1.35);
+  z-index: 100;
+}
+.toast.active{
+  transform: translateX(0%);
+}
+.toast-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toast-check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  background-color: #c933e9;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.message-text{
+  font-size: 20px;
+  font-weight: 600;
+}
+.text-1{
+  color: #333;
+}
+.text-2{
+  color: #666;
+  font-weight: 400;
+  font-size: 16px;
+}
+.toast-close{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.toast-close:hover{
+  opacity: 1;
+}
+.progress{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: #ddd;
+}
+.progress::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #c933e9;
+}
+.progress.active::before{
+  animation: progress 5s linear forwards;
+}
+@keyframes progress {
+  100%{
+    right: 100%;
+  }
+}
+.toast-btn{
+  padding: 10px 40px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #40f467;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.toast-btn:hover{
+  background-color: #0fbd35;
+}
+
+.image-prduct{
+    width: 70px;
+}
+
+.image-prduct img{
+    width: 100%;
+}
+
+/*** ICONS SETS **/
+.icons-section{
+    background-color: rgba(0, 0, 0, 0.05);
+    padding-top: 40px;
+}
+.icons-set{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon{
+    width: 20%;
+    /*background-color: red;*/
+    padding: 20px 10px;
+    margin: 17px 8px;
+}
+
+.icon p{
+    color: #000;
+    font-size: .8em;
+}
+
+
+.bannertool{
+    padding: 3em;
+    background-color: #055EA2;
+    background: url(https://kuuki.com.mx/wp-content/uploads/2023/03/kuuki-banner-1.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.allcite h1, .allcite p{
+    color: #ffffff;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.mask{
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+}
+
+.allcite{
+    padding: 3em;
+    flex-direction: column;
+}
+
+
+.author{
+    font-variant: small-caps;
+}
+
+
+@media (max-width: 600px) {
+  .icon{
+        width: 40%;
+    }
+}
+
+.more-prod-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+}
+
+.more-prod-grid .item{
+    margin: 10px;
+}
