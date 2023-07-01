@@ -328,6 +328,56 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     font-variant: small-caps;
 }
 
+@media (max-width: 767px) {
+  .icon{
+        width: 40%;
+    }
+
+    .site-banner .container{
+        padding-top: 3rem;
+    }
+
+    .site-banner .banner-caption{
+        position: absolute;
+        
+    }
+
+    .site-banner .banner-caption .banner-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .site-banner .banner-caption .banner-desc {
+     color: #fff;
+     font-size: 1rem;
+     margin-bottom: 15px;
+    }
+
+    .site-banner .banner-caption .btn-readmore {
+        color: #fff;
+        border-color: #fff;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding: 10px 50px;
+    }
+
+    section.cta-section.style-one .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container {
+        
+        background: transparent;
+        bottom: 0;
+        position: absolute;
+    }
+    section.cta-section .button-wrap {
+        margin-top: 10px;
+    }
+
+    section.cta-section .widget_blossomtheme_companion_cta_widget .blossomtheme-cta-container .widget-title {
+        color: #ffffff;
+    }
+
+}
+
 
 @media (max-width: 600px) {
   .icon{
@@ -342,4 +392,24 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 
 .more-prod-grid .item{
     margin: 10px;
+}
+
+.kuuki-banner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: blueviolet;
+}
+
+.kuuki-banner .container{
+    background-color: blue;
+}
+
+.kuuki-banner h2{
+    color: #fff;
+    font-size: 4.5rem;
+}
+
+.kuuki-banner p{
+    color: #fff;
+    font-size: 1.2rem;
 }
