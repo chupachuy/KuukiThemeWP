@@ -17,6 +17,7 @@
         get_template_part( 'sections/block2' );
         get_template_part( 'sections/more-products' );
         get_template_part( 'sections/joyeria' );
+        get_template_part( 'sections/bloghome' );
         get_template_part( 'sections/googlereviews' );
         get_template_part( 'sections/icons' );
         /*get_template_part( 'sections/prueba2'  );  
