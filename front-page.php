@@ -20,6 +20,7 @@
         get_template_part( 'sections/bloghome' );
         get_template_part( 'sections/googlereviews' );
         get_template_part( 'sections/icons' );
+        get_template_part( 'sections/googlemap' );
         /*get_template_part( 'sections/prueba2'  );  
         get_template_part( 'sections/prueba2'  ); */
 
