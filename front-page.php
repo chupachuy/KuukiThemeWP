@@ -10,7 +10,8 @@
     //If any one section are enabled then show custom home page.
     echo '<div id="content" class="site-content">';
 
-        get_template_part( 'sections/kuukibanner' ); 
+        //get_template_part( 'sections/kuukibanner' ); 
+        get_template_part( 'sections/banner2' ); 
         get_template_part( 'sections/block' );
         get_template_part( 'sections/bannertool' );
         get_template_part( 'sections/recent_products' );

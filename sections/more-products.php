@@ -48,6 +48,10 @@
             <?php wp_reset_query(); ?>
         </div>
     </div>
+    <div class="container text-center">
+        <a class="btn-gostore" href="<?php bloginfo('url'); ?>/tienda">Ver tienda</a>
+    </div>
 </section>
+
 
 <?php } ?>

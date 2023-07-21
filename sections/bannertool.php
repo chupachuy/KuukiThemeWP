@@ -3,8 +3,7 @@
 	   $query = new WP_query( 'pagename=cita');
 	   if( $query->have_posts()){ while ( $query->have_posts()){
 	  $query->the_post(); ?>
-	<section style="background: url(<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full'); echo $large_image_url[0]; ?>) no-repeat center center fixed; background-size: cover;">
-		<div class="mask"></div>
+	<section class="kiosco" style="background: url(<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full'); echo $large_image_url[0]; ?>)">
 		<div class="container allcite">
 			<!--<div class="title text-center">
 				<h1><?php the_title(); ?></h1>

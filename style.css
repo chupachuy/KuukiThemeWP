@@ -328,6 +328,10 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     font-variant: small-caps;
 }
 
+.tellmeidea-movil{
+display: none
+}
+
 @media (max-width: 767px) {
   .icon{
         width: 40%;
@@ -376,6 +380,42 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
         color: #ffffff;
     }
 
+    .ellmeidea-movil{
+        display: block;
+    }
+
+    #cta_section .tellme-idea-full{
+        display: none
+    }
+
+    #cta_section .tellmeidea-movil{
+        background-color: #fd5b5b;
+        color: #fff;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 2.3rem;
+        font-weight: 900;
+        padding: 2rem 0 1rem;
+    }
+
+    #cta_section .tellmeidea-movil a{
+        color: #fff;
+    }
+
+
+    #cta_section .widget_blossomtheme_companion_cta_widget > div{
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+    }
+
+    .banner-kuuki{
+        margin: 0 2rem !important;
+    }
+
+
 }
 
 
@@ -383,7 +423,14 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
   .icon{
         width: 40%;
     }
+
+    .banner-kuuki{
+        margin: 0 1rem !important;
+    }
+
+   
 }
+
 
 .more-prod-grid{
     display: grid;
@@ -394,22 +441,70 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     margin: 10px;
 }
 
-.kuuki-banner{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: blueviolet;
+.kiosco{
+    min-height: 50vh;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-attachment: scroll !important;
+    background-position: center center !important;
 }
 
-.kuuki-banner .container{
-    background-color: blue;
+.banner-kuuki{
+    margin: 0 4rem;
+    min-height: 60vh;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.kuuki-banner h2{
+.banner-kuuki .banner-title{
     color: #fff;
-    font-size: 4.5rem;
+    font-size: 3em;
+    font-family: Cormorant;
 }
 
-.kuuki-banner p{
+.banner-kuuki p{
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.1112em;
 }
+
+.banner-kuuki .btn-readmore{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: 1px solid #ffffff;
+    padding: 15px 50px;
+    margin-bottom: 3rem;
+}
+
+.btn-gostore{
+    margin-top: 2rem;
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    padding: 15px 50px;
+    margin-bottom: 3rem;
+    transition: all .5s easy;
+}
+
+.btn-gostore:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+
+
