@@ -13,7 +13,7 @@
 		        <?php the_content(); ?>
 		    </div>
 		    <div class="item">
-		        <a class="btn-readmore" href="http://localhost/kuuki/producto/aretes-kantu-colibri/">Ver</a>
+		        <a class="btn-readmore" href="<?php bloginfo('url'); ?>/producto/aretes-kantu-colibri/">Ver</a>
 		    </div>
 		</div>
 
