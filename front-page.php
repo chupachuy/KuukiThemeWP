@@ -15,8 +15,8 @@
         get_template_part( 'sections/block' );
         get_template_part( 'sections/bannertool' );
         get_template_part( 'sections/recent_products' );
-        get_template_part( 'sections/block2' );
         get_template_part( 'sections/more-products' );
+        get_template_part( 'sections/block2' );
         get_template_part( 'sections/joyeria' );
         get_template_part( 'sections/bloghome' );
         get_template_part( 'sections/googlereviews' );
