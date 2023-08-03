@@ -297,6 +297,9 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     font-size: .8em;
 }
 
+.icon-image img {
+    height: 80px;
+}
 
 .bannertool{
     padding: 3em;
@@ -332,7 +335,19 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 display: none
 }
 
+.more-prod-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+}
+
+
 @media (max-width: 767px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+
   .icon{
         width: 40%;
     }
@@ -420,6 +435,7 @@ display: none
 
 
 @media (max-width: 600px) {
+
   .icon{
         width: 40%;
     }
@@ -428,14 +444,16 @@ display: none
         margin: 0 1rem !important;
     }
 
+    .more-prod-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 2fr));
+    }
+
    
 }
 
 
-.more-prod-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
-}
+
 
 .more-prod-grid .item{
     margin: 10px;
