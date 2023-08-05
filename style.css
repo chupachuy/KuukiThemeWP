@@ -98,6 +98,11 @@ nav#site-navigation {
 	   
 }
 
+.woocommerce-page .site-content > .page-header.has-bgimg {
+    min-height: 300px;
+    text-align: center;
+}
+
 
 a.dc-link {
     color: #fff;
@@ -273,10 +278,17 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     width: 100%;
 }
 
+.more-prod-section{
+margin-bottom: 10px !important
+}
+
+
 /*** ICONS SETS **/
 .icons-section{
     background-color: rgba(0, 0, 0, 0);
     padding-top: -50px;
+    margin-top: 0 !important;
+    margin-bottom: 50px !important;
 }
 .icons-set{
     display: flex;
@@ -469,7 +481,7 @@ display: none
 }
 
 .banner-kuuki{
-    margin: 0 4rem;
+    margin: 0;
     min-height: 60vh;
     background-size: cover;
     -o-background-size: cover;
