@@ -54,17 +54,15 @@
                             </ul>
                         </div>
                     </section>
-                    <section id="bttk_social_links-5" class="widget widget_bttk_social_links">
+                    <section id="bttk_social_links-5" class="widget">
                         <h2 class="widget-title" itemprop="name">Siguenos en redes Sociales</h2>
-                        <ul class="social-networks">
-                            <li class="bttk-social-icon-wrap">
+                        <ul class="social-networks-kuuki">
+                            <li class="kuuki_bttk_social_links">
                                 <a href="https://www.facebook.com/kuuki.joyas">
-                                    <i class="fa-brands fa-facebook fa-3x"></i>
+                                    <img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook.svg" alt="facebook Kuuki" width="40">
                                 </a>
-                            </li>
-                            <li class="bttk-social-icon-wrap">
                                 <a href="https://www.instagram.com/kuuki.joyas/">
-                                    <i class="fa-brands fa-instagram fa-3x"></i>
+                                    <img src="<?php bloginfo('stylesheet_directory'); ?>/img/Instagram.svg" alt="facebook Kuuki" width="43">
                                 </a>
                             </li>
                         </ul>
