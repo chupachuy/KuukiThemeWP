@@ -58,7 +58,7 @@
                         <h2 class="widget-title" itemprop="name">Siguenos en redes Sociales</h2>
                         <ul class="social-networks">
                             <li class="bttk-social-icon-wrap">
-                                <a href="https://www.facebook.com/kuuki.joyashttps://www.facebook.com/kuuki.joyas">
+                                <a href="https://www.facebook.com/kuuki.joyas">
                                     <i class="fa-brands fa-facebook fa-3x"></i>
                                 </a>
                             </li>
@@ -91,7 +91,7 @@
                     <section id="nav_menu-3" class="widget widget_nav_menu">
                         <h2 class="widget-title" itemprop="name">Horario</h2>
                         <div class="menu-quick-nav-container">
-                            <p><strong>5 – 9 pm</strong> de Lunes a Viernes<br /><strong>9am a 3pm</strong>  Sábados y Domingos</p>
+                            <p><strong>5pm a 9 pm</strong> de Lunes a Viernes<br /><strong>9am a 3pm</strong>  Sábados y Domingos</p>
                         </div>
                     </section>
                 </div>
@@ -129,7 +129,7 @@
             <div class="container">
                 <div class="site-info">
                     <span class="copyright">© Copyright
-                        <?php Date('Y'); ?>Kuuki <?php echo Date('Y'); ?>. Derechos reservados. </span> By <a href="https://eltacoweb.com/" target="_blank">TACO WEB <small>(taller de código web)</small></a>. Pagos seguro.
+                        <?php Date('Y'); ?>Kuuki - Taller de Joyería <?php echo Date('Y'); ?> </span> - Paga seguro con Tarjeta de Crédito, Débito o Paypal
                 </div>
                 <div class="payment-method">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/img/payment-method.png" alt="payments" ></noscript>

@@ -1,11 +1,8 @@
-
-<?php if(current_user_can( 'administrator' )){ ?>
-
 <section id="recent_product_section" class="more-prod-section">
     <div class="container">
         <div class="recent-prod-wrap">
             <?php
-                $query = new WP_query( 'pagename=mas-productos');
+                $query = new WP_query( 'pagename=catalogo-de-joyeria');
                 if( $query->have_posts()){ while ( $query->have_posts()){
                 $query->the_post(); 
             ?>
@@ -53,5 +50,3 @@
     </div>
 </section>
 
-
-<?php } ?>

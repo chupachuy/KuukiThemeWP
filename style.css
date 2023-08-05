@@ -275,8 +275,8 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 
 /*** ICONS SETS **/
 .icons-section{
-    background-color: rgba(0, 0, 0, 0.05);
-    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: -50px;
 }
 .icons-set{
     display: flex;
